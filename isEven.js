@@ -28,10 +28,13 @@ console.log(1287 % 2);
 
 
 
-function isEven(number) {
+/* function isEven(number) {
     const reminder = number % 2;
     console.log(reminder);
-    if (reminder === 0) { console.log('number is even | নাম্বারটি জোর '); }
+    if (reminder === 0) {
+
+        console.log('number is even | নাম্বারটি জোর ');
+    }
 
 
     else {
@@ -39,4 +42,27 @@ function isEven(number) {
     }
 }
 isEven(483);
-isEven(888);
+isEven(888); */
+
+
+function isEven(number) {
+    const reminder = number % 2;
+    console.log(reminder);
+    if (reminder === 0) {
+
+        return true;
+    }
+
+
+    else {
+        return false;
+    }
+}
+
+const myNumberIsEven = isEven(303);
+console.log(myNumberIsEven);
+const herNumberIsEven = isEven(1280);
+console.log(herNumberIsEven);
+
+// isEven(483);
+// isEven(888);
