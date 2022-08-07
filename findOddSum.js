@@ -1,8 +1,11 @@
 function getSumOfAnArray(numbers) {
+    // Primary let value is 0 zero; 
+    let sum = 0;
     for (let i = 0; i < numbers.length; i++) {
         const index = i;
-        const element = numbers[index]
-        console.log(index, element);
+        const element = numbers[index];
+        sum = sum + element;
+        console.log(index, element, sum);
 
     }
 
