@@ -12,3 +12,7 @@ const number = 6;
 const fact = factorial(number);
 
 console.log('factorial of 9', fact);
+
+
+
+// masum ahmed/.
